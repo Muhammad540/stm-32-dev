@@ -1,0 +1,38 @@
+# --- Build outputs ---
+Debug/
+Release/
+build/
+*/Debug/
+*/Release/
+*/build/
+
+# --- GCC/LD artifacts ---
+*.o
+*.a
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+
+# --- STM32CubeIDE / Eclipse ---
+.metadata/
+.settings/
+*.launch
+
+# Optional: generated makefiles (usually safe to ignore)
+*/Debug/makefile
+*/Debug/*.mk
+*/Debug/*/*.mk
+*/Debug/sources.mk
+*/Debug/objects.mk
+*/Debug/objects.list
+*/Debug/subdir.mk
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
